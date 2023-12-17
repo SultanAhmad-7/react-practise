@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import MasterLayout from './layout/MasterLayout';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Welcome to learning react</h1>
-    </div>
+    <MasterLayout />
   );
 }
 
